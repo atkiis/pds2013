@@ -1,0 +1,13 @@
+c:\users\v\documents\visual studio 2010\Projects\Rovisio\Rovisio\obj\Debug\App.g.i.cs
+c:\users\v\documents\visual studio 2010\Projects\Rovisio\Rovisio\obj\Debug\MainPage.g.i.cs
+c:\users\v\documents\visual studio 2010\Projects\Rovisio\Rovisio\obj\Debug\MotionCamera.g.i.cs
+c:\users\v\documents\visual studio 2010\Projects\Rovisio\Rovisio\obj\Debug\Rovisio.g.resources
+c:\users\v\documents\visual studio 2010\Projects\Rovisio\Rovisio\Bin\Debug\ApplicationIcon.png
+c:\users\v\documents\visual studio 2010\Projects\Rovisio\Rovisio\Bin\Debug\Background.png
+c:\users\v\documents\visual studio 2010\Projects\Rovisio\Rovisio\Bin\Debug\Rovisio.dll
+c:\users\v\documents\visual studio 2010\Projects\Rovisio\Rovisio\Bin\Debug\Rovisio.pdb
+c:\users\v\documents\visual studio 2010\Projects\Rovisio\Rovisio\Bin\Debug\AppManifest.xaml
+c:\users\v\documents\visual studio 2010\Projects\Rovisio\Rovisio\Bin\Debug\Rovisio.xap
+c:\users\v\documents\visual studio 2010\Projects\Rovisio\Rovisio\obj\Debug\Rovisio.dll
+c:\users\v\documents\visual studio 2010\Projects\Rovisio\Rovisio\obj\Debug\Rovisio.pdb
+c:\users\v\documents\visual studio 2010\Projects\Rovisio\Rovisio\obj\Debug\XapCacheFile.xml

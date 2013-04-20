@@ -11,7 +11,7 @@ using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 
-namespace MobileVisualInterface
+namespace Rovisio
 {
     public partial class MainPage : PhoneApplicationPage
     {
@@ -19,19 +19,14 @@ namespace MobileVisualInterface
         public MainPage()
         {
             InitializeComponent();
-
-            // Set the data context of the listbox control to the sample data
-            DataContext = App.ViewModel;
-            this.Loaded += new RoutedEventHandler(MainPage_Loaded);
         }
 
-        // Load data for the ViewModel Items
-        private void MainPage_Loaded(object sender, RoutedEventArgs e)
+        private void cameraBtn_Click(object sender, RoutedEventArgs e)
         {
-            if (!App.ViewModel.IsDataLoaded)
-            {
-                App.ViewModel.LoadData();
-            }
+            NavigationService.Navigate(new Uri("/MotionCamera.xaml", UriKind.Relative));
         }
+
+        
+
     }
 }

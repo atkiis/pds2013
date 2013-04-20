@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.1">
-  <App xmlns="" ProductID="{0c624444-961f-42bd-ae87-06ccb71f9124}" Title="MobileVisualInterface" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal"  Author="MobileVisualInterface author" Description="Sample description" Publisher="MobileVisualInterface">
+  <App xmlns="" ProductID="{2d6ce889-a8f6-4348-870b-75feb0529944}" Title="Rovisio" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal"  Author="Rovisio author" Description="Sample description" Publisher="Rovisio">
     <IconPath IsRelative="true" IsResource="false">ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_GAMERSERVICES"/>
@@ -23,11 +23,11 @@
       <DefaultTask  Name ="_default" NavigationPage="MainPage.xaml"/>
     </Tasks>
     <Tokens>
-      <PrimaryToken TokenID="MobileVisualInterfaceToken" TaskName="_default">
+      <PrimaryToken TokenID="RovisioToken" TaskName="_default">
         <TemplateType5>
           <BackgroundImageURI IsRelative="true" IsResource="false">Background.png</BackgroundImageURI>
           <Count>0</Count>
-          <Title>MobileVisualInterface</Title>
+          <Title>Rovisio</Title>
         </TemplateType5>
       </PrimaryToken>
     </Tokens>

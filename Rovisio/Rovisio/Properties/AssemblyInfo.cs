@@ -6,11 +6,11 @@ using System.Resources;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MobileVisualInterface")]
+[assembly: AssemblyTitle("Rovisio")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MobileVisualInterface")]
+[assembly: AssemblyProduct("Rovisio")]
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -21,7 +21,7 @@ using System.Resources;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("ff3b3595-027c-433c-8e0a-95bc105287d6")]
+[assembly: Guid("ebbc1aed-f1e3-457a-a1e2-e5f6ee5583f4")]
 
 // Version information for an assembly consists of the following four values:
 //
