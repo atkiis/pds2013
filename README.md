@@ -6,5 +6,5 @@ Our project is to have an augmented reality style camera control for OpenRov. Th
 
 <img src="https://github.com/tikuilla/pds2013/blob/master/microcontroller_structure.jpg" alt="" width="304" height="228">
 
-<img src="https://github.com/tikuilla/pds2013/blob/master/project_components.jpg" alt="" width="304" height="228"
+<img src="https://github.com/tikuilla/pds2013/blob/master/project_components.jpg" alt="" width="304" height="228">
 
