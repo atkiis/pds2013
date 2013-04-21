@@ -1,5 +1,5 @@
 Spaceapps challenge project - OpenROV
-
+--
 Mobile visual interface (MoVisio)
 ==
 Our project is to have an augmented reality style camera control for OpenRov. The application is made for Windows phone.
