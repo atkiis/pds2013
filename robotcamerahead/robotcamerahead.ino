@@ -1,5 +1,7 @@
-const int xpluspin = 2;
-const int xminuspin = 3;
+#include <TimerOne.h>
+
+const int xpluspin = 4;
+const int xminuspin = 5;
 const int ypluspin = 6;
 const int yminuspin = 7;
 int inByte = 0;
@@ -10,6 +12,7 @@ int Xval, Yval;
 char inChar;
 boolean stringComplete = false;
 int xpos, ypos, delimiterpos, endpos;
+boolean set = false;
 
 void setup() {
   Serial.begin(9600);
@@ -20,6 +23,10 @@ void setup() {
   Serial.println("ready");
   Xval = 0;
   Yval = 0;
+  
+  Timer1.initialize(50000); // set a timer of length 100000 microseconds (or 0.1 sec - or 10Hz => the led will blink 5 times, 5 cycles of on-and-off, per second)
+  Timer1.attachInterrupt( timerIsr ); // attach the service routine here
+
 }
 
 void loop() {
@@ -44,54 +51,92 @@ void loop() {
  
  xString = message.substring(xpos, delimiterpos);
  yString = message.substring(ypos, endpos);
- Xval = xString.toInt();
- Yval = yString.toInt();
- 
+ Xval = 2* xString.toInt();
+ Yval = 2* yString.toInt();
+ set = 1;
  message = "";
  xString = "";
  yString = "";
  }
+  
+  
+
  
 if(Xval == 0){
- digitalWrite(xpluspin, HIGH); 
- digitalWrite(xminuspin, HIGH);
+  Xstop();
 }
 
 if(Yval == 0){
- digitalWrite(ypluspin, HIGH); 
- digitalWrite(yminuspin, HIGH);
+  Ystop();
 }
 
-if(Xval >0){
- digitalWrite(xminuspin, LOW); 
- digitalWrite(xpluspin, HIGH);
- Xval--;
+if((Xval >0 && set)|| Xval == -1){
+ Xdec();
+ set = 0;
  }
 
-if(Xval <0){
+if((Xval <0 && set)|| Xval == 1){
+ Xinc();
+ set = 0;
+ }
+ 
+if((Yval >0 && set)|| Yval == -1){
+  Ydec();
+  set = 0;
+ }
+ 
+if((Yval <0 && set)|| Yval == 1){
+ Yinc();
+ set = 0;
+ }
+}
+
+void timerIsr()
+{
+    if(Xval>0)
+    Xval--;
+    if(Xval<0)
+    Xval++;
+    if(Yval>0)
+    Yval--;
+    if(Yval<0)
+    Yval++;
+}
+
+void Xinc(){
  digitalWrite(xpluspin, LOW); 
- digitalWrite(xminuspin, HIGH);
- Xval++;
- }
- 
-if(Yval >0){
- digitalWrite(yminuspin, LOW); 
- digitalWrite(ypluspin, HIGH);
- Yval--;
- }
- 
-if(Yval <0){
- digitalWrite(ypluspin, LOW); 
- digitalWrite(yminuspin, HIGH);
- Yval++;
- }
+ digitalWrite(xminuspin, HIGH); 
 }
+
+void Xdec(){
+ digitalWrite(xminuspin, LOW); 
+ digitalWrite(xpluspin, HIGH); 
+}
+void Yinc(){
+ digitalWrite(ypluspin, LOW); 
+ digitalWrite(yminuspin, HIGH); 
+}
+
+void Ydec(){
+ digitalWrite(yminuspin, LOW); 
+ digitalWrite(ypluspin, HIGH); 
+}
+
+void Xstop(){
+ digitalWrite(xminuspin, HIGH); 
+ digitalWrite(xpluspin, HIGH);   
+}
+
+void Ystop(){
+ digitalWrite(yminuspin, HIGH); 
+ digitalWrite(ypluspin, HIGH);   
+}
+
 
 void serialEvent() {
   while (Serial.available()) {
     // get the new byte:
     inChar = (char)Serial.read();
-    Serial.println(inChar);
     message += inChar;  
   if (inChar == '%') {
       stringComplete = true;
