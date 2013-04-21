@@ -11,6 +11,7 @@ c:\users\v\documents\visual studio 2010\Projects\Rovisio\Rovisio\Bin\Debug\Rovis
 c:\users\v\documents\visual studio 2010\Projects\Rovisio\Rovisio\obj\Debug\Rovisio.dll
 c:\users\v\documents\visual studio 2010\Projects\Rovisio\Rovisio\obj\Debug\Rovisio.pdb
 c:\users\v\documents\visual studio 2010\Projects\Rovisio\Rovisio\obj\Debug\XapCacheFile.xml
+<<<<<<< HEAD
 C:\Users\V\Documents\GitHub\pds2013\Rovisio\Rovisio\Bin\Debug\ApplicationIcon.png
 C:\Users\V\Documents\GitHub\pds2013\Rovisio\Rovisio\Bin\Debug\Background.png
 C:\Users\V\Documents\GitHub\pds2013\Rovisio\Rovisio\Bin\Debug\Rovisio.dll
@@ -24,3 +25,28 @@ C:\Users\V\Documents\GitHub\pds2013\Rovisio\Rovisio\obj\Debug\Rovisio.g.resource
 C:\Users\V\Documents\GitHub\pds2013\Rovisio\Rovisio\obj\Debug\Rovisio.dll
 C:\Users\V\Documents\GitHub\pds2013\Rovisio\Rovisio\obj\Debug\Rovisio.pdb
 C:\Users\V\Documents\GitHub\pds2013\Rovisio\Rovisio\obj\Debug\XapCacheFile.xml
+=======
+<<<<<<< HEAD
+C:\Users\antti\Documents\GitHub\PDS2013\Rovisio\Rovisio\obj\Debug\App.g.i.cs
+C:\Users\antti\Documents\GitHub\PDS2013\Rovisio\Rovisio\obj\Debug\MainPage.g.i.cs
+C:\Users\antti\Documents\GitHub\PDS2013\Rovisio\Rovisio\obj\Debug\MotionCamera.g.i.cs
+C:\Users\antti\Documents\GitHub\PDS2013\Rovisio\Rovisio\obj\Debug\Rovisio.g.resources
+C:\Users\antti\Documents\GitHub\PDS2013\Rovisio\Rovisio\obj\Debug\Rovisio.dll
+C:\Users\antti\Documents\GitHub\PDS2013\Rovisio\Rovisio\obj\Debug\Rovisio.pdb
+=======
+C:\Users\lurkki\Documents\GitHub\pds2013\Rovisio\Rovisio\Bin\Debug\ApplicationIcon.png
+C:\Users\lurkki\Documents\GitHub\pds2013\Rovisio\Rovisio\Bin\Debug\Background.png
+C:\Users\lurkki\Documents\GitHub\pds2013\Rovisio\Rovisio\Bin\Debug\Rovisio.dll
+C:\Users\lurkki\Documents\GitHub\pds2013\Rovisio\Rovisio\Bin\Debug\Rovisio.pdb
+C:\Users\lurkki\Documents\GitHub\pds2013\Rovisio\Rovisio\Bin\Debug\AppManifest.xaml
+C:\Users\lurkki\Documents\GitHub\pds2013\Rovisio\Rovisio\Bin\Debug\Rovisio.xap
+C:\Users\lurkki\Documents\GitHub\pds2013\Rovisio\Rovisio\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\lurkki\Documents\GitHub\pds2013\Rovisio\Rovisio\obj\Debug\App.g.i.cs
+C:\Users\lurkki\Documents\GitHub\pds2013\Rovisio\Rovisio\obj\Debug\MainPage.g.i.cs
+C:\Users\lurkki\Documents\GitHub\pds2013\Rovisio\Rovisio\obj\Debug\MotionCamera.g.i.cs
+C:\Users\lurkki\Documents\GitHub\pds2013\Rovisio\Rovisio\obj\Debug\Rovisio.g.resources
+C:\Users\lurkki\Documents\GitHub\pds2013\Rovisio\Rovisio\obj\Debug\Rovisio.dll
+C:\Users\lurkki\Documents\GitHub\pds2013\Rovisio\Rovisio\obj\Debug\Rovisio.pdb
+C:\Users\lurkki\Documents\GitHub\pds2013\Rovisio\Rovisio\obj\Debug\XapCacheFile.xml
+>>>>>>> origin/mvi_server
+>>>>>>> 825c4f733c9cdb5dbed44a93e21863ddbc6c69fb
