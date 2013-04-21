@@ -55,7 +55,7 @@ namespace Rovisio
             // Note that this event handler is called from a background thread
             // and therefore does not have access to the UI thread. To update 
             // the UI from this handler, use Dispatcher.BeginInvoke() as shown.
-            // Dispatcher.BeginInvoke(() => { statusTextBlock.Text = "in CurrentValueChanged"; });
+            Dispatcher.BeginInvoke(() => { statusTextBlock.Text = "in CurrentValueChanged"; });
 
 
             isDataValid = accelerometer.IsDataValid;
@@ -72,9 +72,17 @@ namespace Rovisio
                 z_acc = acceleration.Z;
                 
                 // Show the numeric values
+<<<<<<< HEAD
+                xTextBlock.Text = "X: " + acceleration.X.ToString("0.00");
+                yTextBlock.Text = "Y: " + acceleration.Y.ToString("0.00");
+                zTextBlock.Text = "Z: " + acceleration.Z.ToString("0.00");
+
+                pitchBlock.Text = "Pitch: " + Math.Asin(acceleration.Z).ToString("0.00");
+=======
                 xTextBlock.Text = "X: " + x_acc.ToString("0.00");
                 yTextBlock.Text = "Y: " + y_acc.ToString("0.00");
                 zTextBlock.Text = "Z: " + z_acc.ToString("0.00");
+>>>>>>> 825c4f733c9cdb5dbed44a93e21863ddbc6c69fb
             }
         }
 
