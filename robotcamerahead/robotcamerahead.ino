@@ -13,6 +13,8 @@ char inChar;
 boolean stringComplete = false;
 int xpos, ypos, delimiterpos, endpos;
 boolean set = false;
+boolean up = false;
+boolean left = false;
 
 void setup() {
   Serial.begin(9600);
@@ -24,7 +26,7 @@ void setup() {
   Xval = 0;
   Yval = 0;
   
-  Timer1.initialize(50000); // set a timer of length 100000 microseconds (or 0.1 sec - or 10Hz => the led will blink 5 times, 5 cycles of on-and-off, per second)
+  Timer1.initialize(10000); // set a timer of length 100000 microseconds (or 0.1 sec - or 10Hz => the led will blink 5 times, 5 cycles of on-and-off, per second)
   Timer1.attachInterrupt( timerIsr ); // attach the service routine here
 
 }
@@ -70,24 +72,28 @@ if(Yval == 0){
   Ystop();
 }
 
-if((Xval >0 && set)|| Xval == -1){
+if((Xval >0 && set)||( Xval == -1 && left)){
+ left = false;
  Xdec();
  set = 0;
  }
 
-if((Xval <0 && set)|| Xval == 1){
+if((Xval <0 && set)||(Xval == 1 && !left)){
+ left = true;
  Xinc();
  set = 0;
  }
  
-if((Yval >0 && set)|| Yval == -1){
+if((Yval >0 && set)||(Yval == -1 && up)){
+  up = false;
   Ydec();
   set = 0;
  }
  
-if((Yval <0 && set)|| Yval == 1){
- Yinc();
- set = 0;
+if((Yval <0 && set)||(Yval == 1 && !up)){
+  up = true;
+  Yinc();
+  set = 0;
  }
 }
 
