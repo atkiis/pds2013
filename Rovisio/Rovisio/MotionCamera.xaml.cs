@@ -20,6 +20,11 @@ namespace Rovisio
     public partial class MotionCamera : PhoneApplicationPage
     {
         Accelerometer accelerometer;
+        
+        double x_acc = 0;
+        double y_acc = 0;
+        double z_acc = 0;
+
         DispatcherTimer timer;
         Vector3 acceleration;
         bool isDataValid;
@@ -62,11 +67,14 @@ namespace Rovisio
         {
             if (isDataValid)
             {
-
+                x_acc = acceleration.X;
+                y_acc = acceleration.Y;
+                z_acc = acceleration.Z;
+                
                 // Show the numeric values
-                xTextBlock.Text = "X: " + acceleration.X.ToString("0.00");
-                yTextBlock.Text = "Y: " + acceleration.Y.ToString("0.00");
-                zTextBlock.Text = "Z: " + acceleration.Z.ToString("0.00");
+                xTextBlock.Text = "X: " + x_acc.ToString("0.00");
+                yTextBlock.Text = "Y: " + y_acc.ToString("0.00");
+                zTextBlock.Text = "Z: " + z_acc.ToString("0.00");
             }
         }
 
