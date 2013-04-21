@@ -11,3 +11,16 @@ c:\users\v\documents\visual studio 2010\Projects\Rovisio\Rovisio\Bin\Debug\Rovis
 c:\users\v\documents\visual studio 2010\Projects\Rovisio\Rovisio\obj\Debug\Rovisio.dll
 c:\users\v\documents\visual studio 2010\Projects\Rovisio\Rovisio\obj\Debug\Rovisio.pdb
 c:\users\v\documents\visual studio 2010\Projects\Rovisio\Rovisio\obj\Debug\XapCacheFile.xml
+C:\Users\V\Documents\GitHub\pds2013\Rovisio\Rovisio\Bin\Debug\ApplicationIcon.png
+C:\Users\V\Documents\GitHub\pds2013\Rovisio\Rovisio\Bin\Debug\Background.png
+C:\Users\V\Documents\GitHub\pds2013\Rovisio\Rovisio\Bin\Debug\Rovisio.dll
+C:\Users\V\Documents\GitHub\pds2013\Rovisio\Rovisio\Bin\Debug\Rovisio.pdb
+C:\Users\V\Documents\GitHub\pds2013\Rovisio\Rovisio\Bin\Debug\AppManifest.xaml
+C:\Users\V\Documents\GitHub\pds2013\Rovisio\Rovisio\Bin\Debug\Rovisio.xap
+C:\Users\V\Documents\GitHub\pds2013\Rovisio\Rovisio\obj\Debug\App.g.i.cs
+C:\Users\V\Documents\GitHub\pds2013\Rovisio\Rovisio\obj\Debug\MainPage.g.i.cs
+C:\Users\V\Documents\GitHub\pds2013\Rovisio\Rovisio\obj\Debug\MotionCamera.g.i.cs
+C:\Users\V\Documents\GitHub\pds2013\Rovisio\Rovisio\obj\Debug\Rovisio.g.resources
+C:\Users\V\Documents\GitHub\pds2013\Rovisio\Rovisio\obj\Debug\Rovisio.dll
+C:\Users\V\Documents\GitHub\pds2013\Rovisio\Rovisio\obj\Debug\Rovisio.pdb
+C:\Users\V\Documents\GitHub\pds2013\Rovisio\Rovisio\obj\Debug\XapCacheFile.xml

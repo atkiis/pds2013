@@ -1,10 +1,10 @@
-﻿<xapCache source="c:\users\v\documents\visual studio 2010\Projects\Rovisio\Rovisio\Bin\Debug\Rovisio.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="2013/4/20 22:35:12">
-  <file source="c:\users\v\documents\visual studio 2010\Projects\Rovisio\Rovisio\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2013/4/20 21:03:11" />
-  <file source="c:\users\v\documents\visual studio 2010\Projects\Rovisio\Rovisio\Background.png" archivePath="Background.png" lastWriteTime="2013/4/20 16:42:59" />
-  <file source="c:\users\v\documents\visual studio 2010\Projects\Rovisio\Rovisio\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="2013/4/20 16:42:59" />
-  <file source="c:\users\v\documents\visual studio 2010\Projects\Rovisio\Rovisio\obj\Debug\Rovisio.dll" archivePath="Rovisio.dll" lastWriteTime="2013/4/20 22:35:11" />
-  <file source="c:\users\v\documents\visual studio 2010\Projects\Rovisio\Rovisio\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="2013/4/20 16:42:59" />
-  <file source="c:\users\v\documents\visual studio 2010\Projects\Rovisio\Rovisio\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2013/4/20 21:03:11" />
-  <file source="c:\users\v\documents\visual studio 2010\Projects\Rovisio\Rovisio\Bin\Debug\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="2013/4/20 16:42:59" />
-  <file source="c:\users\v\documents\visual studio 2010\Projects\Rovisio\Rovisio\Bin\Debug\Background.png" archivePath="Background.png" lastWriteTime="2013/4/20 16:42:59" />
+﻿<xapCache source="C:\Users\V\Documents\GitHub\pds2013\Rovisio\Rovisio\Bin\Debug\Rovisio.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="2013/4/21 2:16:26">
+  <file source="C:\Users\V\Documents\GitHub\pds2013\Rovisio\Rovisio\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2013/4/20 21:03:11" />
+  <file source="C:\Users\V\Documents\GitHub\pds2013\Rovisio\Rovisio\Background.png" archivePath="Background.png" lastWriteTime="2013/4/20 16:42:59" />
+  <file source="C:\Users\V\Documents\GitHub\pds2013\Rovisio\Rovisio\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="2013/4/20 16:42:59" />
+  <file source="C:\Users\V\Documents\GitHub\pds2013\Rovisio\Rovisio\obj\Debug\Rovisio.dll" archivePath="Rovisio.dll" lastWriteTime="2013/4/21 2:16:25" />
+  <file source="C:\Users\V\Documents\GitHub\pds2013\Rovisio\Rovisio\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="2013/4/20 16:42:59" />
+  <file source="C:\Users\V\Documents\GitHub\pds2013\Rovisio\Rovisio\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2013/4/20 21:03:11" />
+  <file source="C:\Users\V\Documents\GitHub\pds2013\Rovisio\Rovisio\Bin\Debug\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="2013/4/20 16:42:59" />
+  <file source="C:\Users\V\Documents\GitHub\pds2013\Rovisio\Rovisio\Bin\Debug\Background.png" archivePath="Background.png" lastWriteTime="2013/4/20 16:42:59" />
 </xapCache>
