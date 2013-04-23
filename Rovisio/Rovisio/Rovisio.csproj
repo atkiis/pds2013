@@ -51,6 +51,7 @@
     <Reference Include="Microsoft.Devices.Sensors" />
     <Reference Include="Microsoft.Phone" />
     <Reference Include="Microsoft.Phone.Interop" />
+    <Reference Include="Microsoft.Xna.Framework" />
     <Reference Include="System.Windows" />
     <Reference Include="system" />
     <Reference Include="System.Core" />
@@ -62,6 +63,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="AsynchronousClient.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -87,7 +89,6 @@
   <ItemGroup>
     <None Include="Properties\AppManifest.xml" />
     <None Include="Properties\WMAppManifest.xml" />
-    <None Include="Rovisio_2013_04_21_06_13_45.sap" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ApplicationIcon.png">

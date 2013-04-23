@@ -47,6 +47,9 @@
                     <TextBlock Height="30" HorizontalAlignment="Left"  Name="pitchBlock" Text="Pitch: 0.0" VerticalAlignment="Top" Foreground="Red" FontSize="28" FontWeight="Bold"/>
                     <TextBlock Height="30" HorizontalAlignment="Right"   Name="rollBlock" Text="Roll: 0.0" VerticalAlignment="Top"  Foreground="Blue" FontSize="28" FontWeight="Bold"/>
                 </Grid>
+                <Grid>
+                    <TextBlock Height="30" HorizontalAlignment="Left"  Name="cmdDataBlock" Text="String: -" VerticalAlignment="Top" Foreground="Red" FontSize="28" FontWeight="Bold"/>
+                </Grid>
                 <Grid Height="300" Margin="0,50,0,0">
                     <Image Height="300" HorizontalAlignment="Left" Margin="0,0,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="450" />
                 </Grid>

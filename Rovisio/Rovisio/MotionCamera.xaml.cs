@@ -20,6 +20,7 @@ namespace Rovisio
     public partial class MotionCamera : PhoneApplicationPage
     {
         Accelerometer accelerometer;
+        AsynchronousClient client = new AsynchronousClient("192.168.11.164", 8000);
         
         double x_acc = 0;
         double y_acc = 0;
@@ -72,17 +73,39 @@ namespace Rovisio
                 z_acc = acceleration.Z;
                 
                 // Show the numeric values
-<<<<<<< HEAD
                 xTextBlock.Text = "X: " + acceleration.X.ToString("0.00");
                 yTextBlock.Text = "Y: " + acceleration.Y.ToString("0.00");
                 zTextBlock.Text = "Z: " + acceleration.Z.ToString("0.00");
 
-                pitchBlock.Text = "Pitch: " + Math.Asin(acceleration.Z).ToString("0.00");
-=======
                 xTextBlock.Text = "X: " + x_acc.ToString("0.00");
                 yTextBlock.Text = "Y: " + y_acc.ToString("0.00");
                 zTextBlock.Text = "Z: " + z_acc.ToString("0.00");
->>>>>>> 825c4f733c9cdb5dbed44a93e21863ddbc6c69fb
+
+                if (z_acc > 0.71)
+                {
+                    cmdDataBlock.Text = "String: w";
+                    client.SendData("w");
+                }
+                else if (z_acc < -0.71)
+                {
+                    cmdDataBlock.Text = "String: x";
+                    client.SendData("x");
+                }
+                else if (x_acc < -0.71)
+                {
+                    cmdDataBlock.Text = "String: a";
+                    client.SendData("a");
+                }
+                else if (x_acc > 0.71)
+                {
+                    cmdDataBlock.Text = "String: d";
+                    client.SendData("d");
+                }
+                else
+                {
+                    cmdDataBlock.Text = "String: -";
+                }
+                
             }
         }
 
@@ -106,7 +129,7 @@ namespace Rovisio
 
                     // Specify the desired time between updates. The sensor accepts
                     // intervals in multiples of 20 ms.
-                    accelerometer.TimeBetweenUpdates = TimeSpan.FromMilliseconds(20);
+                    accelerometer.TimeBetweenUpdates = TimeSpan.FromMilliseconds(300);
 
                     // The sensor may not support the requested time between updates.
                     // The TimeBetweenUpdates property reflects the actual rate.
