@@ -14,3 +14,4 @@ On the serverside we use Raspberry Pi. The server to control the arduino based r
 
 ![Project components](https://github.com/tikuilla/pds2013/blob/master/project_components.jpg)
 
+![Video: Mobile Visual Interface (720p)](http://www.youtube.com/watch?v=hz63s3-fDfI&feature=youtu.be)
